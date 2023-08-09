@@ -1,0 +1,160 @@
+.sidebar{
+    width: 5%;
+    height: 100vh;
+    background: blue;
+}
+.fa-bars{
+ font-size: 30px;
+ color: #fff;
+ display: flex;
+ justify-content: center;
+ padding-top: 10px;
+ cursor: pointer;
+}
+.header{
+    width: 94%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(images/home.jpg);
+}
+.homepage{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.icon{
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+button{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.login{
+    border: 2px solid #fff;
+    width:  100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+}
+.content{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 300px;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lorem{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content button{
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.col-img{
+    display: flex;
+    align-items: center;
+}
+.col-img-about{
+    text-align: end;
+    width: 50%;
+}
+.button-2{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.title-1{
+    font-size: 40px;
+    text-align: center;
+}
+.numbers{
+    font-size: 40px;
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+}
+.info1{
+    width: 80%;
+}
+.slide-content{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.container .row{
+    display: flex;
+    background-color: yellow;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.container .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+.container .row form .inputbox{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: 2px;
+
+}
+.container .row form .inputbox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.container .row form .btn{
+    color: red;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
